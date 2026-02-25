@@ -1,0 +1,6 @@
+getgauge
+playwright
+openpyxl
+requests
+html-report
+xml-report

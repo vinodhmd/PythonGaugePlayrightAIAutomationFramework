@@ -1,0 +1,13 @@
+execution:
+  env: Default
+  parallel: true
+  threads: 4
+
+  include_tags:
+    - TC001;TC002;TC003;TC004
+    - PAY001
+  exclude_tags:
+
+reporting:
+  html: true
+  allure: false

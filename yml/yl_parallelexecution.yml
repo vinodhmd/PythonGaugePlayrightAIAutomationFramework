@@ -1,0 +1,17 @@
+execution:
+  env: Default
+  browsers:
+    - chrome
+    - edge
+    - firefox
+  parallel: true
+  nodes: 2
+
+  include_tags:
+    - TC001;TC002;TC003;TC004
+    - PAY001
+  exclude_tags:
+
+reporting:
+  html: true
+  allure: false
